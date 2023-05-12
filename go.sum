@@ -1,5 +1,7 @@
 github.com/a8m/envsubst v1.4.2 h1:4yWIHXOLEJHQEFd4UjrWDrYeYlV7ncFWJOCBRLOZHQg=
 github.com/a8m/envsubst v1.4.2/go.mod h1:MVUTQNGQ3tsjOOtKCNd+fl8RzhsXcDvvAEzkhGtlsbY=
+github.com/afbjorklund/yaml/v3 v3.0.1-kyaml h1:uebWmPakZEPHoQQCeh2zA4TDJBZ+zusbGJUCiUmvqgk=
+github.com/afbjorklund/yaml/v3 v3.0.1-kyaml/go.mod h1:tAHr1tcZt2e0pbLb5fShTPACeWRTSOmj+tMWs+YZqqE=
 github.com/alecthomas/assert/v2 v2.2.2 h1:Z/iVC0xZfWTaFNE6bA3z07T86hd45Xe2eLt6WVy2bbk=
 github.com/alecthomas/participle/v2 v2.0.0 h1:Fgrq+MbuSsJwIkw3fEj9h75vDP0Er5JzepJ0/HNHv0g=
 github.com/alecthomas/participle/v2 v2.0.0/go.mod h1:rAKZdJldHu8084ojcWevWAL8KmEU+AT+Olodb+WoN2Y=
