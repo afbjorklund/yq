@@ -88,6 +88,9 @@ func (ye *yamlEncoder) Encode(writer io.Writer, node *yaml.Node) error {
 	var encoder = yaml.NewEncoder(destination)
 
 	encoder.SetIndent(ye.indent)
+	if ye.prefs.CompactSequenceIndent {
+		encoder.CompactSeqIndent()
+	}
 
 	if err := encoder.Encode(node); err != nil {
 		return err

@@ -5,6 +5,7 @@ type YamlPreferences struct {
 	PrintDocSeparators          bool
 	UnwrapScalar                bool
 	EvaluateTogether            bool
+	CompactSequenceIndent       bool
 }
 
 func NewDefaultYamlPreferences() YamlPreferences {
@@ -13,6 +14,7 @@ func NewDefaultYamlPreferences() YamlPreferences {
 		PrintDocSeparators:          true,
 		UnwrapScalar:                true,
 		EvaluateTogether:            false,
+		CompactSequenceIndent:       false,
 	}
 }
 
